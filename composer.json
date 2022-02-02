@@ -1,0 +1,30 @@
+{
+    "name": "difra/lib-mailer",
+    "description": "E-mail library",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Ed Kutuev",
+            "email": "ed@napych.com"
+        }
+    ],
+    "dist": {
+        "url": "https://github.com/difra-org/lib-mailer/archive/refs/tags/8.0.0.zip",
+        "type": "zip"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:difra-org/lib-mailer.git"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/Mailer.php"
+        ],
+        "psr-4": {
+            "Difra\\Mailer\\": "src/Mailer"
+        }
+    }
+}
